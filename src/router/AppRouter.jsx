@@ -32,12 +32,12 @@ const AppRouter = () => {
 export default AppRouter;
 
 
-{/* 
-PrivateRouter kullanmak istemezsek alttaki gibi
-<Route path="/" element={<Login/>}/>
-<Route path="/home" element={<Home/>}/>
-<Route path="/about" element={<About/>}/>
-<Route path="/details" element={<Details/>}/> */}
+// {/* 
+// PrivateRouter kullanmak istemezsek alttaki gibi
+// <Route path="/" element={<Login/>}/>
+// <Route path="/home" element={<Home/>}/>
+// <Route path="/about" element={<About/>}/>
+// <Route path="/details" element={<Details/>}/> */}
 
 
   
