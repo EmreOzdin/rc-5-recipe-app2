@@ -8,8 +8,10 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo to="/home">
-        <i>{"<Clarusway>"}</i>
-        <span>recipe</span>
+        <i>Today's</i>
+        <span>
+          <i> Recipe</i>
+        </span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         {/* hamburger o anda ne durumdaysa, tıklandığında tersi olacak, false ise true..ve sonra Menu bunu style a props la gönder */}
@@ -33,14 +35,13 @@ const Navbar = () => {
         <MenuLink
           onClick={() =>
             setGithub(
-              (window.location.href =
-                "https://github.com/orgs/clarusway/dashboard")
+              (window.location.href = "https://github.com/EmreOzdin/EmreOzdin")
             )
           }
           to={github}
           target="_blank"
         >
-          Githubb
+          Github
         </MenuLink>
         {/* React-router, Tek Sayfalık Uygulama için bir yönlendirme sistemidir. Tüm
         rotaların sayfanızda tanımlanması ve uygulamanızın içinde kapsüllenmesi
